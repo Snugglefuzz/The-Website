@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="normalize.css" />
+    <script src="video_swap.js"></script>
+    <script src="vidSwap.js"></script>
+    <title>Snuggies Resume</title>
+  </head>
+  <body>
+    <div class="header">
+      <nav class="nav">
+        <a href="/"
+          ><img class="icon" src="/images/bear.png" alt="" />Snuggies Fuzzie</a
+        >
+        <ul class="list nav__list">
+          <li class="nav__item"><a href="/">About</a></li>
+          <li class="nav__item">
+            <a href="previous_work.html">Previous Work</a>
+          </li>
+          <li class="nav__item"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="video_gallery">
+      <div class="player">
+        <video height="100%" width="100%" id="video" controls>
+          <source src="/videos/pepe.mp4" id="mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="thumb">
+        <a
+          href="#"
+          onClick="javascript:vidSwap('/videos/hey.mp4'); return false;"
+          ><img src="/images/hey_thumb.jpg" alt="" />
+        </a>
+        <h5>Hey Yea!</h5>
+      </div>
+      <div class="thumb">
+        <a
+          href="#"
+          onClick="javascript:vidSwap('/videos/lizard.mp4'); return false;"
+          ><img src="/images/lizard_thumb.jpg" alt="" />
+        </a>
+        <h5>Lady, Hear Me Tonight Lizard</h5>
+      </div>
+      <div class="thumb">
+        <a
+          href="#"
+          onClick="javascript:vidSwap('/videos/stream.mp4'); return false;"
+          ><img src="/images/stream_thumb.jpg" alt="" />
+        </a>
+        <h5>When You Accidently Click On Light Mode</h5>
+      </div>
+      <div class="thumb">
+        <a
+          href="#"
+          onClick="javascript:vidSwap('/videos/he_walk.mp4'); return false;"
+          ><img src="/images/he_walk_thumb.jpg" alt="" />
+        </a>
+        <h5>He Walc</h5>
+      </div>
+      <div class="thumb">
+        <a
+          href="#"
+          onClick="javascript:vidSwap('/videos/pepe.mp4'); return false;"
+          ><img src="/images/pepe_thumb.jpg" alt="" />
+        </a>
+        <h5>Golden Dawn</h5>
+      </div>
+    </div>
+  </body>
+</html>
